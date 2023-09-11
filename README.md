@@ -22,6 +22,9 @@ Diagrama de Caso de Uso: <br/>
 Diagrama de Classes: <br/>
 ![texto](Projeto/diagramas/DiagramaClasse.png)
 
+Diagrama de Pacotes: <br/>
+![texto](Projeto/diagramas/DiagramaPacotes.png)
+
 <br/>
 <table>
   <tr>
