@@ -14,7 +14,7 @@
 
 - Java;
 
-## :rocket: Lab01S01:
+## :rocket: Lab02S01:
 
 Diagrama de Caso de Uso: <br/>
 ![texto](Projeto/diagramas/CasoDeUso.drawio.png)
