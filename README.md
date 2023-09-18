@@ -25,6 +25,9 @@ Diagrama de Classes: <br/>
 Diagrama de Pacotes: <br/>
 ![texto](Projeto/diagramas/DiagramaPacotes.png)
 
+Diagrama de Componenetes: <br/>
+![texto](Projeto/diagramas/diagramaComponentes.drawio.png)
+
 <br/>
 
 - Meu nome é Nicole, tenho 24 anos e amo cuidar de planatas. Faço faculdade de design e preciso começar a trabalhar como motorista de aplicativo para pagar o curso, mas não tenho dinheiro para um financiamento, sendo assim, gostaria de alugar um carro.
