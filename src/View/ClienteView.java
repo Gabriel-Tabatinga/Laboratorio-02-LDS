@@ -195,7 +195,7 @@ public class ClienteView extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_excluirActionPerformed
 
     private void btn_salvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_salvarActionPerformed
-        if( PedidoControl.IntroduzirPedido(c_matricula.getText()) ){
+        if( PedidoControl.IntroduzirPedido(c_matricula.getText(), "a", "b", "b", "b") ){
             this.LoadTable();
             JOptionPane.showMessageDialog(this, "Aluno salvo com sucesso!");
         }else

@@ -20,7 +20,7 @@ Diagrama de Caso de Uso: <br/>
 ![texto](Projeto/diagramas/CasoDeUso.drawio.png)
 
 Diagrama de Classes: <br/>
-![texto](Projeto/diagramas/DiagramaClasse.png)
+![texto](Projeto/diagramas/DiagramaClassev2.png)
 
 Diagrama de Pacotes: <br/>
 ![texto](Projeto/diagramas/DiagramaPacotes.png)

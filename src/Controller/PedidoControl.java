@@ -3,17 +3,20 @@ package Controller;
 import java.util.HashMap;
 
 import Model.Aluguel;
+import Model.Automovel;
 
 public class PedidoControl {
 
-    HashMap<Integer, Aluguel> alugueis;
+    static HashMap<Integer, Aluguel> alugueis;
+    static HashMap<String, Automovel> automoveis;
 
-    PedidoControl() {
-        this.alugueis = new HashMap<Integer, Aluguel>();
+    static {
+        alugueis = new HashMap<Integer, Aluguel>();
+        automoveis = new HashMap<String, Automovel>();
     }
 
-    public static boolean IntroduzirPedido(String matricula, String login, String empresa){
-        Aluguel a = new Aluguel(matricula, login, empresa);
+    public static boolean IntroduzirPedido(String matricula, String login, String empresa, String banco, String contrato){
+        Aluguel a = new Aluguel(automoveis.get(matricula), login, empresa, banco, contrato);
         return a.Persistir();
     }
     public boolean ModificarPedidoCliente(String numero, String banco, String contrato){
